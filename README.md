@@ -30,6 +30,9 @@ Se familiariser avec la librairie front-end BootStrap.
 
 ![contact]()
 
+## Scores lighthouse  :
+![score](images/score-Noodle.PNG)
+
 ## Difficultés rencontrées :
 
 Première utilisation de BootStrap
