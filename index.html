@@ -31,13 +31,13 @@
           <a class="nav-link" data-value="menu" href="#menu">Menu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " data-value="gallery" href="#">Gallery</a>
+          <a class="nav-link " data-value="gallery" href="#gallery">Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " data-value="restaurants" href="#">Restaurants</a>
+          <a class="nav-link " data-value="restaurants" href="#restaurants">Restaurants</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " data-value="contact" href="#">Contact</a>
+          <a class="nav-link " data-value="contact" href="#contact">Contact</a>
         </li>
       </ul>
 
@@ -57,9 +57,8 @@
 
           <h3>Noodle</h3>
           <p>
-            Our main focus is on ramen noodles, delicious firm wheat based noodles served in a tasty broth. Please do not expect a menu with 100 items at our restaurants, we prefer to focus on one thing and doing it well. At Noodle you will find traditional Japanese
-            flavours with a local twist. Savouriness, taste, flavour, that is our philosophy, our religion, our way of living. We try to source the best Japanese and local products to produce the most nutrient, healthiest, but above all the tastiest ramen
-            possible. Noodle is slow (cooked) food, served fast. So yes, taste is what it is all about at Noodle, cooking with beautiful products, served with integrity and loads of TLC, Tender Loving Cooking, obviously ;-)
+            Our main focus is on ramen noodles, delicious firm wheat based noodles served in a tasty broth. At Noodle you will find traditional Japanese flavours with a local twist. Savouriness, taste, flavour, that is our philosophy, our way of living. We try to
+            source the best Japanese and local products to produce the tastiest ramen possible. Taste is what it is all about at Noodle, cooking with beautiful products, Tender Loving Cooking, obviously ;-)
           </p>
         </div>
       </div>
@@ -70,8 +69,8 @@
   <div class="menu" id="menu">
     <h1 class="text-center">Our delicious menu</h1>
     <div class="container">
-      <ul class="list-group">
-        <input class="sides col-lg-12 col-md-12 col-sm-12" type="button" value="Sides" onclick="masquer_div('sides');" />
+      <ul class="list-group col-lg-12 col-md-12 col-sm-12 ">
+        <input class="sides btn btn-secondary btn-block" type="submit" value="Sides" onclick="masquer_div('sides');" />
         <div id="sides" style="display:none">
           <li class="list-group-item">
             <span class="badge"><img src="images/icons/carrot.svg" class="badge_icon" /></span>
@@ -132,8 +131,8 @@
         </div>
       </ul>
 
-      <ul class="list-group">
-        <input class="ramen" type="button" value="Ramen" onclick="masquer_div('ramen');" />
+      <ul class="list-group col-lg-12 col-md-12 col-sm-12 ">
+        <input class="ramen btn btn-secondary btn-block" type="submit" value="Ramen" onclick="masquer_div('ramen');" />
         <div id="ramen" style="display:none">
           <li class="list-group-item">
             <span class="badge"><img src="images/icons/chicken.svg" class="badge_icon" /></span>
@@ -197,8 +196,8 @@
   </div>
 
   <!-- Gallery -->
-  <div class="gallery">
-    <h1 class="text-center">Gallery</h1>
+  <div class="gallery" id="gallery">
+    <h1 class="text-center">Some pictures to tempt you !</h1>
     <div class="container">
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -252,131 +251,82 @@
         </a>
       </div>
     </div>
+  </div>
 
-    <!-- Posts section -->
-    <div class="blog" id="blog">
-      <div class="container">
-        <h1 class="text-center">Blog</h1>
-        <div class="row">
-          <div class="col-md-4 col-lg-4 col-sm-12">
-            <div class="card">
-              <div class="card-img">
-                <img src="images/posts/polit.jpg" class="img-fluid">
-              </div>
+  <!-- restaurants -->
+  <div class="restaurants" id="restaurants">
+    <div class="container">
+      <h1 class="text-center">Where can you find us?</h1>
+      <div class="row">
+        <div class="col-md-6 col-lg-6 col-sm-12">
+          <div class="card">
 
-              <div class="card-body">
-                <h4 class="card-title">Post Title</h4>
-                <p class="card-text">
-
-                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-              </div>
-              <div class="card-footer">
-                <a href="" class="card-link">Read more</a>
-              </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.126806928905!2d-81.56606268661443!3d28.38523770198463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88dd7ee634caa5f7%3A0xa71e391fd01cf1a0!2sWalt+Disney+World+Resort!5e0!3m2!1sfr!2sbe!4v1538475817919"
+              frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div class="card-body">
+              <h4 class="card-title">Noodle Orlando</h4>
+              <p class="card-text">
+                Open every day 12:00 - 14:30 &amp; 18:00 - 22:00 <br> Thu - Sat open till 23:00
+              </p>
             </div>
           </div>
-          <div class="col-md-4 col-lg-4 col-sm-12">
-            <div class="card">
-              <div class="card-img">
-                <img src="images/posts/images.jpg" class="img-fluid">
-              </div>
-
-              <div class="card-body">
-                <h4 class="card-title">Post Title</h4>
-                <p class="card-text">
-
-                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-              </div>
-              <div class="card-footer">
-                <a href="" class="card-link">Read more</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-lg-4 col-sm-12">
-            <div class="card">
-              <div class="card-img">
-                <img src="images/posts/imag2.jpg" class="img-fluid">
-              </div>
-
-              <div class="card-body">
-                <h4 class="card-title">Post Title</h4>
-                <p class="card-text">
-
-                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-              </div>
-              <div class="card-footer">
-                <a href="" class="card-link">Read more</a>
-              </div>
+        </div>
+        <div class="col-md-6 col-lg-6 col-sm-12">
+          <div class="card">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2642995874717!2d2.773619214328725!3d48.872237907687726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61d19ca7ae2bd%3A0x57faf8cb6310e660!2sDisneyland+Paris!5e0!3m2!1sfr!2sbe!4v1538475603950"
+              frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div class="card-body">
+              <h4 class="card-title">Noodle Paris</h4>
+              <p class="card-text">
+                Open every day 12:00 - 14:30 &amp; 18:00 - 22:00 <br> Thu - Sat open till 23:00
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <!-- Team section -->
-    <div class="team" id="team">
-      <div class="container">
-        <h1 class="text-center">Our Team</h1>
-        <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-12 item">
-            <img src="images/team-2.jpg" class="img-fluid" alt="team">
-            <div class="des">
-              Sara
-            </div>
-            <span class="text-muted">Manager</span>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-12 item">
-            <img src="images/team-3.jpg" class="img-fluid" alt="team">
-            <div class="des">
-              Chris
-            </div>
-            <span class="text-muted">S.enginner</span>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-12 item">
-            <img src="images/team-2.jpg" class="img-fluid" alt="team">
-            <div class="des">
-              Layla
-            </div>
-            <span class="text-muted">Front End Developer</span>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-12 item">
-            <img src="images/team-3.jpg" class="img-fluid" alt="team">
-            <div class="des">
-              J.Jirard
-            </div>
-            <span class="text-muted">Team Manger</span>
-          </div>
-        </div>
+  </div>
+  <div class="social-media  ">
+    <div class="media container col-lg-12 col-md-12 col-sm-12">
+      <div class="row">
+        <a href="https://www.ubereats.com/stores/" target="_blank" rel="noopener" name="ubereats"><img src="images/icons/uber.png" class="social" alt="ubereats"/></a>
+        <a href="https://deliveroo.be/fr/" target="_blank" rel="noopener" name="deliveroo"><img src="images/icons/Deliveroo_logo.svg" class="social" alt="deliveroo"/></a>
+        <a href="https://www.facebook.com/davidhasselhoff/" target="_blank" rel="noopener" name="facebook"><img src="images/icons/facebook.svg" class="social" alt="facebook"/></a>
+        <a href="https://www.instagram.com/patrickswayzefanpage/?hl=fr" target="_blank" rel="noopener" name="instagram"><img src="images/icons/instagram.svg" class="social" alt="instagram"/></a>
       </div>
     </div>
+  </div>
 
-    <!-- Contact form -->
-    <div class="contact-form" id="contact">
-      <div class="container">
-        <form>
-          <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12">
-              <h1>Get in Touch</h1>
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-12 right">
-              <div class="form-group">
-                <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
-              </div>
-              <div class="form-group">
-                <textarea class="form-control form-control-lg">
-
-				   	 </textarea>
-              </div>
-              <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
-            </div>
+  <!-- Contact form -->
+  <div class="contact-form" id="contact">
+    <div class="container">
+      <form action="/action_page.php">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <h1>Get in Touch</h1>
           </div>
-        </form>
+          <div class="col-lg-8 col-md-8 col-sm-12 right">
+            <div class="form-group">
+              <input type="name" class="form-control form-control-lg" placeholder="Your Name" id="name" name="name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
+            </div>
+            <div class="form-group">
+              <select id="monselect" class="form-control form-control-lg" name="pourquoi">
+               <option value="valeur1" selected>I have a compliment</option>
+               <option value="valeur2" >I have a suggestion</option>
+               <option value="valeur3">I have a comment</option>
+               <option value="valeur4">I have a complain</option>
+            </select>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control form-control-lg" placeholder="Your message here">
+     </textarea><span class="badge badge-warning">English or French only</span>
+            </div>
+            <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+          </div>
+      </form>
       </div>
     </div>
     <!-- add Javasscript file from js file -->
