@@ -1,14 +1,8 @@
-$(document).ready(function(){
- $('.header').height($(window).height());
-
- $(".navbar a").click(function(){
- 	$("body,html").animate({
- 		scrollTop:$("#" + $(this).data('value')).offset().top
- 	},1000)
-
- })
-
-});
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+           .register('./service-worker.js')
+           .then(function() { console.log('Service Worker Registered'); });
+};
 
 function masquer_div(id)
 {
@@ -20,4 +14,4 @@ function masquer_div(id)
   {
        document.getElementById(id).style.display = 'none';
   }
-}
+};

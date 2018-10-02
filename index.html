@@ -3,6 +3,10 @@
 
 <head>
   <title>Noodle</title>
+  <link rel="manifest" href="./manifest.json" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="restaurant de nouille" />
+  <meta name="theme-color" content="#FFFFFF" />
   <!-- add bootstrap css file -->
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -25,7 +29,7 @@
     <div class="collapse navbar-collapse " id="navbarSupportedContent">
       <ul class="navbar-nav mr-4">
         <li class="nav-item">
-          <a class="nav-link" data-value="about" href="#">About Us</a>
+          <a class="nav-link" data-value="about" href="#about">About Us</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" data-value="menu" href="#menu">Menu</a>
@@ -50,7 +54,7 @@
       <h1 class="text-center">About Us</h1>
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-12">
-          <img src="images/about.jpg" class="img-fluid">
+          <img src="images/about.jpg" class="img-fluid" alt="noodles bowl">
           <span class="text-justify">One of our marvellous ramen.</span>
         </div>
         <div class="col-lg-8 col-md-8 col-sm-12 desc">
@@ -73,7 +77,7 @@
         <input class="sides btn btn-secondary btn-block" type="submit" value="Sides" onclick="masquer_div('sides');" />
         <div id="sides" style="display:none">
           <li class="list-group-item">
-            <span class="badge"><img src="images/icons/carrot.svg" class="badge_icon" /></span>
+            <span class="badge"><img src="images/icons/carrot.svg" class="badge_icon" alt="icon carrot" /></span>
             <h5>EDAMAME</h5>
             <span class="badge">&euro; 4,20</span>
             <p>
@@ -81,7 +85,7 @@
             </p>
           </li>
           <li class="list-group-item">
-            <span class="badge"><img src="images/icons/carrot.svg" class="badge_icon" /><img src="images/icons/chili.svg" class="badge_icon" /></span>
+            <span class="badge"><img src="images/icons/carrot.svg" class="badge_icon" alt="icon carrot" /><img src="images/icons/chili.svg" class="badge_icon" alt="icon chili" /></span>
             <h5>KIMCHI</h5>
             <span class="badge">&euro; 6,20</span>
             <p>
@@ -89,7 +93,7 @@
             </p>
           </li>
           <li class="list-group-item">
-            <span class="badge"><img src="images/icons/chicken.svg" class="badge_icon" /></span>
+            <span class="badge"><img src="images/icons/chicken.svg" class="badge_icon" alt="icon chicken" /></span>
             <h5>GYOZA</h5>
             <span class="badge">&euro; 8</span>
             <p>
@@ -97,7 +101,7 @@
             </p>
           </li>
           <li class="list-group-item">
-            <span class="badge"><img src="images/icons/carrot.svg" class="badge_icon" /></span>
+            <span class="badge"><img src="images/icons/carrot.svg" class="badge_icon" alt="icon carrot"/></span>
             <h5>SEAWEED SALAD</h5>
             <span class="badge">&euro; 5,10</span>
             <p>
@@ -105,7 +109,7 @@
             </p>
           </li>
           <li class="list-group-item">
-            <span class="badge"><img src="images/icons/carrot.svg" class="badge_icon" /><img src="images/icons/chili.svg" class="badge_icon" /></span>
+            <span class="badge"><img src="images/icons/carrot.svg" class="badge_icon" alt="icon carrot" /><img src="images/icons/chili.svg" class="badge_icon" alt="icon chili" /></span>
             <h5>MOUNTAIN VEGETABLES</h5>
             <span class="badge">&euro; 5,20</span>
             <p>
@@ -113,7 +117,7 @@
             </p>
           </li>
           <li class="list-group-item">
-            <span class="badge"><img src="images/icons/ham.svg" class="badge_icon" /></span>
+            <span class="badge"><img src="images/icons/ham.svg" class="badge_icon" alt="icon pork" /></span>
             <h5>PORK BUN</h5>
             <span class="badge">&euro; 7,50</span>
             <p>
@@ -121,7 +125,7 @@
             </p>
           </li>
           <li class="list-group-item">
-            <span class="badge"><img src="images/icons/ham.svg" class="badge_icon" /><img src="images/icons/chili.svg" class="badge_icon" /></span>
+            <span class="badge"><img src="images/icons/ham.svg" class="badge_icon" alt="icon pork" /><img src="images/icons/chili.svg" class="badge_icon" alt="icon chili" /></span>
             <h5>KIMCHI PORK BUN</h5>
             <span class="badge">&euro; 8,50</span>
             <p>
@@ -135,7 +139,7 @@
         <input class="ramen btn btn-secondary btn-block" type="submit" value="Ramen" onclick="masquer_div('ramen');" />
         <div id="ramen" style="display:none">
           <li class="list-group-item">
-            <span class="badge"><img src="images/icons/chicken.svg" class="badge_icon" /></span>
+            <span class="badge"><img src="images/icons/chicken.svg" class="badge_icon" alt="icon chicken" /></span>
             <h5>SHOYU RAMEN</h5>
             <span class="badge">&euro; 14,90</span>
             <p>
@@ -143,7 +147,7 @@
             </p>
           </li>
           <li class="list-group-item">
-            <span class="badge"><img src="images/icons/chicken.svg" class="badge_icon" /></span>
+            <span class="badge"><img src="images/icons/chicken.svg" class="badge_icon" alt="icon chicken" /></span>
             <h5>SHOYU YUZU RAMEN</h5>
             <span class="badge">&euro; 15,90</span>
             <p>
@@ -151,7 +155,7 @@
             </p>
           </li>
           <li class="list-group-item">
-            <span class="badge"><img src="images/icons/ham.svg" class="badge_icon" /></span>
+            <span class="badge"><img src="images/icons/ham.svg" class="badge_icon" alt="icon pork"/></span>
             <h5>MISO TONKOTSU RAMEN</h5>
             <span class="badge">&euro; 14,90</span>
             <p>
@@ -159,7 +163,7 @@
             </p>
           </li>
           <li class="list-group-item">
-            <span class="badge"><img src="images/icons/ham.svg" class="badge_icon" /><img src="images/icons/chili.svg" class="badge_icon" /></span>
+            <span class="badge"><img src="images/icons/ham.svg" class="badge_icon" alt="icon pork"/><img src="images/icons/chili.svg" class="badge_icon" alt="icon chili" /></span>
             <h5>KARA MISO TONKOTSU RAMEN</h5>
             <span class="badge">&euro; 15,50</span>
             <p>
@@ -167,7 +171,7 @@
             </p>
           </li>
           <li class="list-group-item">
-            <span class="badge"><img src="images/icons/carrot.svg" class="badge_icon" /></span>
+            <span class="badge"><img src="images/icons/carrot.svg" class="badge_icon" alt="icon carrot" /></span>
             <h5>VEGETARIAN RAMEN</h5>
             <span class="badge">&euro; 14,70</span>
             <p>
@@ -175,7 +179,7 @@
             </p>
           </li>
           <li class="list-group-item">
-            <span class="badge"><img src="images/icons/ham.svg" class="badge_icon" /><img src="images/icons/chili.svg" class="badge_icon" /></span>
+            <span class="badge"><img src="images/icons/ham.svg" class="badge_icon" alt="icon pork" /><img src="images/icons/chili.svg" class="badge_icon" alt="icon chili" /></span>
             <h5>CHEF'S SPECIAL</h5>
             <span class="badge">&euro; 17,60</span>
             <p>
@@ -204,39 +208,39 @@
           <div class="carousel-item active">
             <div class="row">
               <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/gallery/ingredients.jpg" class="img-fluid d-block h-60">
+                <img src="images/gallery/ingredients.jpg" class="img-fluid d-block h-60" alt="ingredients">
               </div>
               <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/gallery/menu.jpg" class="img-fluid d-block h-60">
+                <img src="images/gallery/menu.jpg" class="img-fluid d-block h-60" alt="menu">
               </div>
               <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/gallery/sides.jpg" class="img-fluid d-block h-60">
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/gallery/miso.jpg" class="img-fluid d-block h-60">
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/gallery/kara_miso.jpg" class="img-fluid d-block h-60">
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/gallery/the_chef.jpg" class="img-fluid d-block h-60">
+                <img src="images/gallery/sides.jpg" class="img-fluid d-block h-60" alt="sides">
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="row">
               <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/gallery/shoyu.jpg" class="img-fluid d-block h-60">
+                <img src="images/gallery/miso.jpg" class="img-fluid d-block h-60" alt="miso">
               </div>
               <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/gallery/shoyu_yuzu.jpg" class="img-fluid d-block h-60">
+                <img src="images/gallery/kara_miso.jpg" class="img-fluid d-block h-60" alt="kara miso">
               </div>
               <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/gallery/tantanmen.jpg" class="img-fluid d-block h-60">
+                <img src="images/gallery/the_chef.jpg" class="img-fluid d-block h-60" alt="the chef">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="images/gallery/shoyu.jpg" class="img-fluid d-block h-60" alt="shoyu">
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="images/gallery/shoyu_yuzu.jpg" class="img-fluid d-block h-60" alt="shoyu yuzu">
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="images/gallery/tantanmen.jpg" class="img-fluid d-block h-60" alt="tantanmen">
               </div>
             </div>
           </div>
@@ -262,7 +266,7 @@
           <div class="card">
 
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.126806928905!2d-81.56606268661443!3d28.38523770198463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88dd7ee634caa5f7%3A0xa71e391fd01cf1a0!2sWalt+Disney+World+Resort!5e0!3m2!1sfr!2sbe!4v1538475817919"
-              frameborder="0" style="border:0" allowfullscreen></iframe>
+              frameborder="0" style="border:0" allowfullscreen title="Orlando map"></iframe>
             <div class="card-body">
               <h4 class="card-title">Noodle Orlando</h4>
               <p class="card-text">
@@ -274,7 +278,7 @@
         <div class="col-md-6 col-lg-6 col-sm-12">
           <div class="card">
             <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2642995874717!2d2.773619214328725!3d48.872237907687726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61d19ca7ae2bd%3A0x57faf8cb6310e660!2sDisneyland+Paris!5e0!3m2!1sfr!2sbe!4v1538475603950"
-              frameborder="0" style="border:0" allowfullscreen></iframe>
+              frameborder="0" style="border:0" allowfullscreen title="Paris map"></iframe>
             <div class="card-body">
               <h4 class="card-title">Noodle Paris</h4>
               <p class="card-text">
