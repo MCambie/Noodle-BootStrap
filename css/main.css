@@ -10,7 +10,7 @@ html, h1, h2, h3, h4, h5, h6, a {
 }
 
 .navbar {
-  background: #F97300;
+  background-image: url('../images/bg-img.jpg');
 }
 
 .nav-link, .navbar-brand {
@@ -19,7 +19,7 @@ html, h1, h2, h3, h4, h5, h6, a {
 }
 
 .logo {
-  height: 5em;
+  height: 3em;
   width: auto;
 }
 
@@ -40,57 +40,17 @@ html, h1, h2, h3, h4, h5, h6, a {
   background: #fff !important;
 }
 
-/*header style*/
-
-.header {
-  position: relative;
-  background-image: url('../images/bg-img.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-.overlay {
-  position: absolute;
-  min-height: 100%;
-  min-width: 100%;
-  left: 0;
-  top: 0;
-  background: rgba(244, 244, 244, 0.79);
-}
-
-.description {
-  position: absolute;
-  top: 30%;
-  margin: auto;
-  padding: 2em;
-}
-
-.description h1 {
-  color: #F97300;
-}
-
-.description p {
-  color: #666;
-  font-size: 20px;
-  width: 50%;
-  line-height: 1.5;
-}
-
-.description button {
-  border: 1px solid #F97300;
-  background: #F97300;
-  color: #fff;
-}
+/* About */
 
 .about {
-  /* margin: 1em 0;
-  padding: 1em; */
+  margin-top: 1em;
+  padding: 2em;
   position: relative;
 }
 
 .about h1 {
   color: #F97300;
-  margin: 2em;
+  margin-top: 2em;
 }
 
 .about img {
@@ -100,8 +60,7 @@ html, h1, h2, h3, h4, h5, h6, a {
 .about span {
   display: block;
   color: #888;
-  position: absolute;
-  left: 115px;
+  text-align: center;
 }
 
 .about .desc {
@@ -118,23 +77,48 @@ html, h1, h2, h3, h4, h5, h6, a {
   color: #888;
 }
 
-/*Portfolio*/
+/*Menu*/
 
-.portfolio {
-  margin: 4em 0;
+.menu {
+  padding-top: 0;
   position: relative;
 }
 
-.portfolio h1 {
+.menu h1 {
   color: #F97300;
   margin: 2em;
 }
 
-.portfolio img {
-  height: 15rem;
-  width: 100%;
-  margin: 1em;
+.sides, .ramen {
+  color: #10828C;
 }
+
+.badge_icon {
+  height: 15px;
+  width: auto;
+}
+
+.list-group-item {
+  text-align: left;
+}
+
+.list-group-item>.badge {
+  float: right;
+}
+
+/* Gallery */
+
+.gallery {
+  margin: 4em 0;
+  position: relative;
+}
+
+.gallery h1 {
+  color: #F97300;
+  margin: 2em;
+}
+
+.gallery img {}
 
 /*blog style*/
 
