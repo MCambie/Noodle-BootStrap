@@ -6,7 +6,7 @@ One-Pager pour un restaurant fictif
 - **Quand ?** :  Prairie - BeCode (~ mai 2018)
 - **Par ?** : 
     - [Marie Cambie](https://github.com/MCambie) 
-- **Le site** :  https://mcambie.github.io/Restaurant_Bootstrap/
+- **Le site** :  https://mcambie.github.io/Noodle-BootStrap/
 
 ## Demande client : 
 Le site est un site vitrine d'une franchise de restaurants. La franchise est fictive mais le type de nourriture (burger, pizza, asiatique,...) est laissé au choix de l’apprenant.
@@ -20,15 +20,15 @@ Pour le consulter,cliquez [ici](https://github.com/becodeorg/Johnson2/tree/maste
 Se familiariser avec la librairie front-end BootStrap.
 
 ## Captures d'écrans du projet  :
-![acceuil]()
+![acceuil](images/aboutUs.PNG)
 
-![carte]()
+![carte](images/menu.PNG)
 
-![galerie]()
+![galerie](images/pictures.PNG)
 
-![restaurants]()
+![restaurants](images/map.PNG)
 
-![contact]()
+![contact](images/contact.PNG)
 
 ## Scores lighthouse  :
 ![score](images/score-Noodle.PNG)
