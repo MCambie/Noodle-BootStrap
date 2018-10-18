@@ -3,7 +3,7 @@ One-Pager pour un restaurant fictif
 
 - **Client** : [Becode](https://github.com/becodeorg/)
 - **Où ?** : [Becode](https://github.com/becodeorg/)
-- **Quand ?** :  Prairie - BeCode (~ mai 2018)
+- **Quand ?** :  Prairie - BeCode (~ mai 2018), mis à jour octobre 2018
 - **Par ?** : 
     - [Marie Cambie](https://github.com/MCambie) 
 - **Le site** :  https://mcambie.github.io/Noodle-BootStrap/
