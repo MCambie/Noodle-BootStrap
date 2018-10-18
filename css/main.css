@@ -13,8 +13,14 @@ html, h1, h2, h3, h4, h5, h6, a {
   background-image: url('../images/bg-img.jpg');
 }
 
+.navbar-toggler-icon {
+  background-image: url('../images/icons/menu.svg');
+}
+
 .nav-link, .navbar-brand {
   color: #f4f4f4;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
   cursor: pointer;
 }
 
@@ -30,6 +36,7 @@ html, h1, h2, h3, h4, h5, h6, a {
 .nav-link:hover {
   background: #f4f4f4;
   color: #f97300;
+  text-shadow: none;
 }
 
 .navbar-collapse {
